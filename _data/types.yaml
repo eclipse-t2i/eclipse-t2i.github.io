@@ -2,6 +2,10 @@
 
 # team member roles
 
+main:
+  icon: fa-solid fa-microscope
+  description: PhD Student
+
 pi:
   icon: fa-solid fa-microscope
   description: Principal Investigator
@@ -9,6 +13,10 @@ pi:
 postdoc:
   icon: fa-solid fa-glasses
   description: Postdoctoral Researcher
+
+candidate:
+  icon: fa-solid fa-graduation-cap
+  description: PhD Candidate
 
 phd:
   icon: fa-solid fa-graduation-cap
@@ -189,6 +197,16 @@ docs:
   icon: fa-solid fa-book
   text: Documentation
   tooltip: Documentation
+
+demo:
+  icon: fa-solid fa-images
+  text: Demo
+  tooltip: Demo
+
+huggingface:
+  text: 🤗 HuggingFace
+  tooltip: HuggingFace
+  link: https://huggingface.co/$VALUE
 
 source:
   icon: fa-solid fa-code

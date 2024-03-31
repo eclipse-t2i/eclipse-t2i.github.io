@@ -1,30 +1,34 @@
 ---
 ---
 
-# Lab Website Template
+# Building Generative AI Responsibly
 
-[Lab Website Template](https://github.com/greenelab/lab-website-template) is an easy-to-use, flexible website template for [labs](https://www.greenelab.com/).
-Spend less time worrying about managing a website and citations, and more time running your lab.
+Fuelled by the ambition to redefine the frontiers of AI, our organization is committed to advancing the efficiency and accessibility of cutting-edge image generation technologies. We're on a mission to empower the research community by democratizing high-fidelity, customizable AI solutions, pushing the boundaries of innovation, and making state-of-the-art technologies both accessible and **sustainable**.
 
+- Efficient Design (training, fine-tuning, and scaling)
+- Sustainable AI (fairness, privacy, and security)
+- Accessible tools (open-source, open-data, open-source-code)
+
+<center>
 {%
   include button.html
-  type="docs"
-  link="https://greene-lab.gitbook.io/lab-website-template-docs"
+  type="huggingface"
+  link="ECLIPSE-Community"
 %}
 {%
   include button.html
   type="github"
-  text="On GitHub"
-  link="greenelab/lab-website-template"
+  text="GitHub"
+  link="eclipse-t2i"
 %}
-
+</center>
 {% include section.html %}
 
 ## Highlights
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Our work consists of ECLIPSE-series (a series of papers on efficient training), WOUAF (attribution of image generative models), etc.
 
 {%
   include button.html
@@ -39,7 +43,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="https://science.nasa.gov/wp-content/uploads/2023/05/2-eclipse-colorized.jpg?w=4096&format=jpeg"
   link="research"
   title="Our Research"
   text=text
@@ -47,37 +51,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-{%
-  include button.html
-  link="projects"
-  text="Browse our projects"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="projects"
-  title="Our Projects"
-  flip=true
-  style="bare"
-  text=text
-%}
-
-{% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We are a team of researchers working on various aspects of GenAI. Join us to learn more about our work and collaborate with us to tackle the most pressing challenges in GenAI.
 
 {%
   include button.html
   link="team"
-  text="Meet our team"
+  text="Browse team"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -87,8 +66,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/neurips_group.jpg"
   link="team"
   title="Our Team"
+  flip=true
+  style="bare"
   text=text
 %}
+

@@ -7,29 +7,13 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+We are a team from Arizona State University (Active Perception Group).
+We are always expanding in terms of research collaboration and looking for talented researchers to join our team.
+If you are interested in our research, please reach out to us at: [maitreya.patel@asu.edu](mailto:maitreya.patel@asu.edu).
 
 {% include section.html %}
 
+{% include list.html data="members" component="portrait" filters="role: main" %}
+{% include list.html data="members" component="portrait" filters="role: candidate" %}
+{% include list.html data="members" component="portrait" filters="role: phd" %}
 {% include list.html data="members" component="portrait" filters="role: pi" %}
-{% include list.html data="members" component="portrait" filters="role: ^(?!pi$)" %}
-
-{% include section.html background="images/background.jpg" dark=true %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-{% include section.html %}
-
-{% capture content %}
-
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-
-{% endcapture %}
-
-{% include grid.html style="square" content=content %}

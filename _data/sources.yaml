@@ -1,23 +1,74 @@
-- id: doi:10.1371/journal.pcbi.1007128
+- id: arxiv:2312.04655
   type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  date: 2020-12-4
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+  description: Resource Efficient Text-to-Image Prior.
+  date: 2023-12-1
+  image: https://maitreyapatel.com/assets/img/publication_preview/eclipse.png
   buttons:
-    - type: manubot
-      link: https://greenelab.github.io/meta-review/
-    - type: source
-      text: Manuscript Source
-      link: https://github.com/greenelab/meta-review
     - type: website
-      link: http://manubot.org/
+      link: https://eclipse-t2i.vercel.app/
+    - type: github
+      link: eclipse-t2i/eclipse-inference
+    - type: demo
+      link: https://huggingface.co/spaces/ECLIPSE-Community/ECLIPSE-Kandinsky-v2.2
   tags:
-    - open science
-    - collaboration
-  repo: greenelab/meta-review
+    - CVPR2024
+    - ECLIPSE
+    - Efficiency
+    - Text-to-Image
+  # repo: eclipse-t2i/eclipse-inference
 
-- id: doi:10.1016/j.csbj.2020.05.017
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
+- id: arxiv:2306.04744
+  type: paper
+  description: Fingerprinting Text-to-Image Diffusion Models.
+  date: 2023-12-1
+  image: https://maitreyapatel.com/assets/img/publication_preview/wouaf_model.png
+  buttons:
+    - type: website
+      link: https://wouaf.vercel.app/
+    - type: github
+      link: kylemin/WOUAF
+    - type: demo
+      link: https://huggingface.co/spaces/wouaf/WOUAF-Text-to-Image
+  tags:
+    - CVPR2024
+    - WOUAF
+    - Security
+    - Text-to-Image
+  # repo: kylemin/WOUAF
 
-- id: doi:10.7554/eLife.32822
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+- id: arxiv:2402.05195
+  type: paper
+  description: Efficient Personalized Text-to-Image Diffusion Models.
+  date: 2023-12-1
+  image: https://maitreyapatel.com/assets/img/publication_preview/lambda.jpeg
+  buttons:
+    - type: website
+      link: https://eclipse-t2i.github.io/Lambda-ECLIPSE/
+    - type: github
+      link: eclipse-t2i/lambda-eclipse-inference
+    - type: demo
+      link: https://huggingface.co/spaces/ECLIPSE-Community/lambda-eclipse-personalized-t2i
+  tags:
+    - Latest
+    - ECLIPSE
+    - Efficiency
+    - Text-to-Image
+  # repo: eclipse-t2i/lambda-eclipse-inference
+
+- id: doi:10.1609/aaai.v38i13.29371
+  type: paper
+  description: Evaluating Personalized Text-to-Image Models.
+  date: 2023-06-1
+  image: https://maitreyapatel.com/assets/img/publication_preview/conceptbed.png
+  buttons:
+    - type: website
+      link: https://conceptbed.github.io/
+    - type: github
+      link: ConceptBed/evaluations
+    - type: demo
+      link: https://huggingface.co/spaces/mpatel57/ConceptBed
+  tags:
+    - AAAI2024
+    - Evaluations
+    - Text-to-Image
+  # repo: ConceptBed/evaluations
