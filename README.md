@@ -1,1 +1,1 @@
-<h1 align="center">ECLIPSE-T2I Community Website</h1>
+<h1 align="center"><a href="#">ECLIPSE-T2I Community Website</a></h1>
